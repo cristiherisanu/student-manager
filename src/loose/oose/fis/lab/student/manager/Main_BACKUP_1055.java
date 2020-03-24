@@ -10,12 +10,21 @@ public class Main extends Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception {
+<<<<<<< HEAD:src/loose/oose/fis/lab/student/manager/Main.java
+        Parent root = FXMLLoader.load(getClass().getResource("fxml/login.fxml"));
+=======
         Parent root = FXMLLoader.load(getClass().getResource("fxml/view-students.fxml"));
+>>>>>>> master:src/sample/Main.java
         primaryStage.setTitle("FIS - Student Manager");
         primaryStage.setScene(new Scene(root, 600, 400));
         primaryStage.show();
     }
 
+<<<<<<< HEAD:src/loose/oose/fis/lab/student/manager/Main.java
+
+
+=======
+>>>>>>> master:src/sample/Main.java
     public static void main(String[] args) {
         launch(args);
     }
